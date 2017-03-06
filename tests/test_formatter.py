@@ -39,7 +39,7 @@ def test_formatter():
 
     assert PayloadValidator(payload).validate()
 
-    # Assertions for the latin 1 file
+    # Assertions for the latin 1 file
     assert type(payload_latin_1) is dict
     assert len(payload_latin_1["source_files"]) == 1
 
